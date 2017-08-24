@@ -16,7 +16,7 @@ $connexion = new mysqli(
   <meta charset="utf-8">
 <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css"/>
       <link href="../bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet"/>
-      <link href="/sample/css/bool.css" rel="stylesheet"/>
+      <link href="/sample/css/elevator.css" rel="stylesheet"/>
   <title>PopSchool Simulator 2017</title>
 </head>
 <body>
