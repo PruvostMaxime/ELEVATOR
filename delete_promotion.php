@@ -40,6 +40,14 @@ include("include/headerpromo.php");
 
   <legend class="middle">Pour supprimer une promotion,remplissez le champ</legend>
 
+  <!-- Text input-->
+  <div class="form-group">
+    <label class="col-md-4 control-label" for="promotionid">Numero de la promotion</label>
+    <div class="col-md-1">
+      <input id="promotionid" name="promotionid" type="text" value="<?php printf("%s",$promotion["id"]); ?>" readonly="readonly" placeholder="" class="form-control input-md">
+
+    </div>
+  </div>
 <!-- Text input-->
 <div class="form-group">
   <label class="col-md-4 control-label" for="promotionname">Nom de la formation</label>
