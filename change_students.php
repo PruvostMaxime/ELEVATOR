@@ -78,11 +78,18 @@ include("include/header.php");
 
     <!-- Select Basic -->
 <div class="form-group">
+  <label class="col-md-4 control-label" for="promoactuelle">Promotion actuelle</label>
+  <div class="col-md-4">
+    <input id="promoactuelle" name="promoactuelle" type="text" value="<?=$student["promotion_id"] ?>" readonly="readonly" placeholder="" class="form-control input-md">
+  </div>
+</div>
+    <!-- Select Basic -->
+<div class="form-group">
   <label class="col-md-4 control-label" for="promochange">Promotion</label>
   <div class="col-md-4">
-    <select id="promochange" name="promochange" value="<?php printf("%s",$student["promotion_id"]); ?>" class="form-control">
-      <option value="1">Phillipe Pary</option>
-      <option value="2">Daishi Kaiser</option>
+    <select id="promochange" name="promochange" value="" class="form-control">
+      <option value="Philippe Pary">Philippe Pary</option>
+      <option value="Daishi Kaiser">Daishi Kaiser</option>
     </select>
   </div>
 </div>
