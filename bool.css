@@ -1,0 +1,58 @@
+.title {
+	text-align: center;
+	text-decoration: underline;
+	font-size: 18px;
+}
+
+.form-horizontal {
+	border: 2px solid black;
+}
+
+body {
+	background-color: #EEE;
+
+}
+
+a:hover{
+	text-decoration: none;
+	color: white;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.text {
+	text-align: center;
+}
+
+.error {
+	color: red;
+}
+
+.start {
+	color : black;
+	text-decoration: underline;
+}
+
+.swag {
+	animation: rainbow 0.7s infinite;
+	font-size: 46px;
+}
+
+@keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}
+}
+
+.centerme {
+ margin: 7px 0 0 0
+}
+
+.middle {
+	text-align: center;
+	text-decoration: underline;
+}
