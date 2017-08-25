@@ -28,7 +28,7 @@ include("include/headerpromo.php");
       printf("<div class='alert alert-danger'><span class=\"glyphicon glyphicon-warning-sign\"></span> Mode lecture seule,pour modifier une promotion,passez par la <a class=\"error\" href=\"/sample/list_promotions.php\">liste des promotions.</a></div>");
     }
   ?>
-  <h1 class="title">ELEVATOR V2.1.beta</h1>
+  <h1 class="title">PROMOVATOR V2.1.beta</h1>
   <h2 class="title">Modifier une promotion</h2>
     <form method="post" class="form-horizontal">
     <fieldset>

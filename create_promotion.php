@@ -22,7 +22,7 @@ if(isset($_POST["promotionname"]) && $_POST["promotionname"] != " ") {
 }
 
 ?>
-  <h1 class="title">ELEVATOR V2.1.beta</h1>
+  <h1 class="title">PROMOVATOR V2.1.beta</h1>
 <h2 class="title">Creer une promotion</h2>
   <form method="POST" class="form-horizontal">
   <fieldset>

@@ -31,7 +31,7 @@ include("include/headerpromo.php");
 
     }
   ?>
-  <h1 class="title">ELEVATOR V2.1.beta</h1>
+  <h1 class="title">PROMOVATOR V2.1.beta</h1>
   <h2 class="title">Supprimer une promotion</h2>
 <form method="post" class="form-horizontal" id="delete">
 <fieldset>

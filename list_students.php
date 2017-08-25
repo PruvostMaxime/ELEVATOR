@@ -8,7 +8,10 @@ $connexion = new mysqli('localhost', 'root', 'AReHyheenVoury5', 'coursSQL1');
 
       <!-- Form Name -->
       <legend class="middle">Liste des eleves</legend>
-
+      <?php if ($result = $connexion->query("SELECT * FROM `eleves")) {
+    printf("<legend class=\"title\">");
+    printf("Actuellement,il y'a %d eleves.<br/><br/>", $result->num_rows);
+    printf("</legend>");} ?>
       <!-- Button (Double) -->
     <?php  if ($result = $connexion->query("SELECT * FROM `eleves` ")) {
          while ($row = $result->fetch_assoc()) {
