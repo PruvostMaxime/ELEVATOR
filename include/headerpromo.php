@@ -3,7 +3,7 @@
 $page = $_SERVER['REQUEST_URI'];
 $page = str_replace("http://0.0.0.0:8000/sample/", "",$page);
 
-include("../sample/config/db.php");
+include("../config/db.php");
 $connexion = new mysqli(
   $db_host,
   $db_user,
@@ -14,9 +14,9 @@ $connexion = new mysqli(
 <!DOCTYPE html>
 <head>
   <meta charset="utf-8">
-<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css"/>
-      <link href="../bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet"/>
-        <link href="/sample/css/elevator.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+        <link href="../bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet"/>
+        <link href="../css/elevator.css" rel="stylesheet"/>
   <title>PopSchool Simulator 2017</title>
 </head>
 <body>
@@ -31,22 +31,22 @@ $connexion = new mysqli(
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand">
-      <img alt="Brand" src="/sample/include/popschool.png" height="30px" width="30px">
+      <img alt="Brand" src="../include/popschool.png" height="30px" width="30px">
     </a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li <?php if($page == "/sample/acceuil.php"){echo 'class="active"';} ?>><a href="/sample/acceuil.php">Acceuil</a></li>
-        <li <?php if($page == "/sample/list_promotions.php"){echo 'class="active"';} ?>><a href="/sample/list_promotions.php">Liste des promotions</a></li>
-        <li <?php if($page == "/sample/create_promotion.php"){echo 'class="active"';} ?>><a href="/sample/create_promotion.php">Creer une promotion</a></li>
-        <li <?php if($page == "/sample/change_promotion.php"){echo 'class="active"';} ?>><a href="/sample/change_promotion.php">Modifier une promotion</a></li>
-        <li <?php if($page == "/sample/delete_promotion.php"){echo 'class="active"';} ?>><a href="/sample/delete_promotion.php">Supprimer une promotion</a></li>
+        <li <?php if($page == "/acceuil.php"){echo 'class="active"';} ?>><a href="/acceuil.php">Acceuil</a></li>
+        <li <?php if($page == "/list/list_promotions.php"){echo 'class="active"';} ?>><a href="/list/list_promotions.php">Liste des promotions</a></li>
+        <li <?php if($page == "/create/create_promotion.php"){echo 'class="active"';} ?>><a href="/create/create_promotion.php">Creer une promotion</a></li>
+        <li <?php if($page == "/change/change_promotion.php"){echo 'class="active"';} ?>><a href="/change/change_promotion.php">Modifier une promotion</a></li>
+        <li <?php if($page == "/delete/delete_promotion.php"){echo 'class="active"';} ?>><a href="/delete/delete_promotion.php">Supprimer une promotion</a></li>
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><button id="validate" name="validate" class="btn btn-danger centerme"><a href="/sample/home.php">Eleves</a></button></li>
+        <li><button id="validate" name="validate" class="btn btn-danger centerme"><a href="/home.php">Eleves</a></button></li>
           </ul>
         </li>
       </ul>
