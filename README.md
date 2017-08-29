@@ -1,20 +1,20 @@
 # ELEVATOR
 
-Projet en PHP permettant de gerer 2 bases de données (eleves et promotions) en ajoutant,modifiant,ou supprimant les elements en PHP
+Projet en PHP vanilla et bootstrap permettant de gerer 2 bases de données (eleves et promotions) en ajoutant,modifiant,ou supprimant les elements en PHP
 
-1 > Modifiez le db-sample.php et mettez les coordonées de votre serveur php.
+#Installation
 
-2 > enjoie.
+1 > Copiez les fichers dans votre dossier web
+2 > Installez votre base de données avec le db-sample.php
+3 > Lancez la commande ``$ yarn install` pour installer les dépendances
+4 > enjoie.
 
 # Projet crée dans le cadre de ma formation a PoPSchool
 
+# Usage
+Allez a la racine du projet,ez pz
+
+#End
+
 Copyright 2017
-
-
-
-
-
-
-
-
-
+PRUVOST Maxime <contact@pruvostmaxime.fr>
