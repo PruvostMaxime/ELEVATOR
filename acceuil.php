@@ -8,7 +8,7 @@ include("include/headerpromo.php");
 <br />
 <br />
 <br />
-<h1 class="text">Pour commencer,allez sur la <a class="start" href="/sample/list_promotions.php">liste des promotions</a> !</h1>
+<h1 class="text">Pour commencer,allez sur la <a class="start" href="/list/list_promotions.php">liste des promotions</a> !</h1>
 <?php
 include("include/footer.php");
 
